@@ -1,0 +1,60 @@
+.login {
+    text-align: center;
+    margin: 0 auto;
+    width: 230px;
+    background: cadetblue;
+    border-radius: 25px;
+}
+
+.name {
+    padding-top: 20px;
+}
+
+.textLogin {
+
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    color: black;
+}
+
+.textLogin::placeholder {
+    color: black;
+}
+
+.textLogin:invalid {
+    border-color: red;
+}
+
+.formError {
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.password {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    margin-top: 15px;
+}
+
+.password::placeholder {
+    color: black;
+}
+
+.check {
+    margin-top: 15px;
+}
+
+.form {
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}

@@ -1,0 +1,95 @@
+.descriptionBlock {
+    padding: 10px 0px;
+}
+
+.fones {
+    width: 1000px;
+    position: center;
+    padding-bottom: 10px;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    margin: -90px 0px 10px 10px;
+    border-radius: 100px;
+}
+
+.name {
+    position: relative;
+    text-align: left;
+    font-size: 40px;
+    margin: -80px 0px 0px 200px;
+}
+
+.about {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 0px 200px;
+    color:  gray;
+}
+
+.social {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.contact {
+    padding-left: 6px;
+}
+
+
+.status {
+    position: relative;
+}
+
+.statusDiv {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.inputBlock {
+    padding: 10px;
+}
+
+.input {
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.spanBlock {
+    padding-left: 10px;
+}
+
+.span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputFile[type='file'] {
+    color: transparent;
+}
+
+.inputFile{
+    padding-bottom: 20px;
+    color: transparent;
+}
+
+.divInput {
+    opacity: 0;
+    position: absolute;
+    margin-top: -100px;
+    padding-left: 30px;
+}
+
+.job {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.button {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,8 @@
+.preloader {
+    display: block;
+    margin-left: 41%;
+    margin-right: auto;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+}

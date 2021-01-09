@@ -1,0 +1,23 @@
+.item img {
+    width: 50px;
+}
+
+.item {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.text {
+    font-size: 25px;
+    position: absolute;
+    margin: -40px 0px 0px 60px;
+}
+
+.date {
+   padding: 5px 0px;
+   font-size: 10px;
+}
+
+.like {
+    font-size: 14px;
+}

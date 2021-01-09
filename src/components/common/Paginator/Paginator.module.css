@@ -1,0 +1,45 @@
+.paginator {
+    cursor: default;
+    position: absolute;
+    padding-left: 22%;
+    margin: -20px 0px 0px 0px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+
+.selectedPage:hover {
+    color: cadetblue;
+    border-color: currentColor;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pageNumber {
+    float: left;
+    line-height: 120px;
+    margin: 5px;
+    border-radius: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.rightButton {
+    margin: 5px;
+    position: absolute;
+    margin: 48px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.leftButton {
+    margin: 5px;
+    position: absolute;
+    left: 42%;
+    margin: 48px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}

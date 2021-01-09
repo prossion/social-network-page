@@ -1,0 +1,102 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+    grid-column-gap: 60px;
+    position:relative;
+    height: 500px;
+}
+
+.dialogItems {
+    text-decoration: none;
+}
+
+
+.dialogItems .dialog {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dialogItems .active {
+    color: white;
+}
+
+.messages {
+    overflow: scroll;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+
+.messages .message {
+    font-family: 'Roboto', sans-serif;
+    max-width: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+
+
+.form {
+    right: 0;
+    bottom:0;
+    padding-bottom: 60px;
+}
+
+.inputDiv {
+    width: 300%;
+    margin-left: 130%;
+
+}
+
+.input {
+    width: 200%;
+    padding: 5px;
+    max-width: 350px;
+    border: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+
+}
+
+@media screen and (max-width: 800px) {
+    .textarea {
+        width: 200%;
+    }
+}
+
+textarea::placeholder {
+    padding-top: 7px;
+    text-align: left;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    backgorund-color: transparent;
+    position: absolute;
+    right: 0;
+    margin-right: 17%;
+    margin-top: -28px;
+    width: 80px;
+    height: 29px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+
+
+

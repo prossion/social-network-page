@@ -1,0 +1,28 @@
+.header {
+    grid-area: h;
+    background-color: cadetblue;
+    margin: 0px 0px 10px 0px;
+}
+
+.header img {
+    padding: 5px 0px 5px 0px;
+    max-width: 40px;
+}
+
+.logo {
+    padding-left: 5px;
+}
+
+.login {
+    float: right;
+    color: black;
+    padding: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.logout {
+    position: relative;
+    left: 80px;
+    margin: -28px 0px;
+}

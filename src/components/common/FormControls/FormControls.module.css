@@ -1,0 +1,16 @@
+.formControl.error input {
+    border: 2px solid red
+}
+
+.spanError {
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    transition-property: all;
+    position: absolute;
+
+}
+

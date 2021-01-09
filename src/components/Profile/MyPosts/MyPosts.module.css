@@ -1,0 +1,32 @@
+.item {
+    color: black;
+}
+
+.postsBlock {
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+
+.input {
+    height: 30px;
+    border: white;
+    width: 88%;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.button {
+    backgorund-color: transparent;
+    margin: -35px 0px;
+    float: right;
+    width: 95px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    z-index: 2;
+    position: relative;
+}
+

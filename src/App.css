@@ -1,0 +1,19 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+/*fonts*/
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    max-width: 1200px;
+    grid-template-areas: "h h" "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-grap: 10px;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: whitesmoke;
+    padding: 10px;
+}
